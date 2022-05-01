@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-export const Form = () => {
+export const Form = ({ handleSubmit }) => {
 	return (
-		<Wrapper>
+		<Wrapper onSubmit={handleSubmit}>
 			<SubmitButton type="submit" value="SOLVE" />
 		</Wrapper>
 	);
@@ -19,4 +19,7 @@ const SubmitButton = styled.input`
 	border: none;
 	border-radius: 2px;
 	padding: 1rem 2rem;
+	&:hover {
+		cursor: pointer;
+	}
 `;
