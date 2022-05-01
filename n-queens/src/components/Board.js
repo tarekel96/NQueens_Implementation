@@ -58,6 +58,7 @@ export const Board = () => {
 			<Header>
 				N-Queens: <input value={N} onChange={(e) => handleChangeN(e)} type="text" />
 			</Header>
+			<br />
 			{board.map((arr, index) => (
 				<Row key={arr[0] + ' ' + String(index)}>
 					{arr.map(({ isQueen, color }, index) => (
@@ -69,7 +70,9 @@ export const Board = () => {
 					))}
 				</Row>
 			))}
+			<br />
 			<Form handleSubmit={handleSubmit} />
+			<br />
 			<Footer />
 		</ChessBoard>
 	);
@@ -88,5 +91,4 @@ const Header = styled.header`
 	color: #20df7f;
 	padding: 1rem 2rem;
 	border-radius: 2px;
-	margin-bottom: 2%;
 `;

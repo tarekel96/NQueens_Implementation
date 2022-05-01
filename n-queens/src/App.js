@@ -15,7 +15,7 @@ const Wrapper = styled.main`
 	display: flex;
 	justify-content: center;
 	align-items: baseline;
-	padding-top: 10%;
+	padding-top: 5%;
 	background-color: #383635;
 `;
 

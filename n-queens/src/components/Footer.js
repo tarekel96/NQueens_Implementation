@@ -18,5 +18,4 @@ const Wrapper = styled.footer`
 	color: #20df7f;
 	padding: 1rem 2rem;
 	border-radius: 2px;
-	margin-top: 2%;
 `;

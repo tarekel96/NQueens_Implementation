@@ -10,7 +10,6 @@ export const Form = ({ handleSubmit }) => {
 const Wrapper = styled.form`
 	display: flex;
 	justify-content: center;
-	margin-top: 2%;
 `;
 
 const SubmitButton = styled.input`
